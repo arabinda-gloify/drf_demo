@@ -25,4 +25,5 @@ router.register('blog-view',BlogDetailsView)
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
+    path('api2/', include('only_serializers.urls')),
 ]
