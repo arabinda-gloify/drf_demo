@@ -26,4 +26,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
     path('api2/', include('only_serializers.urls')),
+    path('api3/', include('apiview.urls')),
 ]

@@ -43,7 +43,8 @@ INSTALLED_APPS = [
     
     # project app
     'viewset',
-    'only_serializers'
+    'only_serializers',
+    'apiview',
 
 
 ]
